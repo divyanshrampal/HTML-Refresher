@@ -1,4 +1,4 @@
-/* this will add the whole body display to flex column and gives the font family that will be used*/
+/* This will add the whole body display to flex column and gives the font family that will be used*/
 
 body{
     display: flex;
@@ -30,6 +30,7 @@ h1 {
 .submit{
     display: flex;
     justify-content: flex-end;
+    gap: 1rem;
 }
 
 /* Styling reset and submit button */

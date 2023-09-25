@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <!-- Link to external CSS stylesheet -->
     <link rel="stylesheet" href="style.css">
     <title>Employee Registration</title>
 </head>
 <body>
+    <!-- Main heading for the page -->
     <h1>EMPLOYEES</h1>
+
+    <!-- Starting of the form -->
     <form>
+
+        <!-- Input field for First Name -->
         <div class="firstname">
             <label for="first">First Name : </label>
             <input type="text" name="first" id="first" placeholder="Enter your first name" required>
         </div>
+
+        <!-- Input field for Last Name -->
         <div class="lastname">
             <label for="last">Last Name : </label>
             <input type="text" name="last" id="last" placeholder="Enter your last name" required>
         </div>
+
+        <!-- Radio buttons for gender selection-->
         <div class="detail">
             <label for="gender">Gender:</label>
             <input type="radio" name="gender" id="male" value="male">
@@ -26,10 +36,14 @@
             <input type="radio" name="gender" id="other" value="other">
             <label for="other">Other</label>
         </div>
+
+        <!-- Number input for Experience -->
         <div class="experience">
             <label for="experience">Experience (in years) :</label>
             <input type="number" id="experience" name="experience" min="0" max="20" required>
         </div>
+
+        <!-- Checkboxes for Skillset -->
         <div class="skills">
             <label>Skillset:</label>
             <input type="checkbox" id="html" name="skills" value="HTML">
@@ -48,10 +62,13 @@
             <input type="checkbox" id="php" name="skills" value="PHP">
             <label for="php">PHP</label>
         </div>
+
+        <!-- Buttons to clear and submit the form -->
         <div class="submit">
-            <input type="reset" value="Clear">&nbsp; &nbsp;
+            <input type="reset" value="Clear">
             <input type="submit" value="Submit">
         </div>
+        
     </form>
 </body>
 </html>
