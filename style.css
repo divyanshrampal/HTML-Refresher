@@ -1,3 +1,5 @@
+/* this will add the whole body display to flex column and gives the font family that will be used*/
+
 body{
     display: flex;
     flex-direction: column;
@@ -5,6 +7,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* Styling for the main form by setting its border and font size*/
 form{
     display: flex;
     flex-direction: column;
@@ -13,19 +16,9 @@ form{
     padding: 2rem;
     border-radius: 10px;
     font-size: 1.2rem;
-    font-family: 'Roboto', sans-serif;
 }
 
-.name{
-    display: flex;
-    gap: 1rem;
-}
-
-.details{
-    display: flex;
-    justify-content: center;
-}
-
+/* Styling for the Employees heading */
 h1 {
     color: black;
     font-size: 32px;
@@ -33,22 +26,24 @@ h1 {
     align-items: center;
 }
 
+/* Positioning the buttons */
 .submit{
     display: flex;
     justify-content: flex-end;
 }
 
+/* Styling reset and submit button */
 input[type=reset], input[type=submit]{
     background-color: #555555;
     color: white;
-    padding: 0.5rem;
-    border-radius: 10px;
+    padding: 0.7rem;
+    border-radius: 7px;
     border: none;
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
 }
 
-
+/* Styling for experience input field */
 input[type=number]{
     width: 34%;
     padding: 12px 20px;
@@ -59,6 +54,8 @@ input[type=number]{
     box-sizing: border-box;
   }
 
+
+/* Styling for the names fields */
 input[type=text]{
     width: 60%;
     padding: 12px 20px;
